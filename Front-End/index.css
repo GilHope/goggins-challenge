@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: 0;
+  }
+
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    margin: 0 5px;
+  }
+  
+
+  #goggins {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #goggins img {
+    width: 50%;
+    height: auto;
+  }
+  
+  
+  #leaderboard {
+    margin-top: 40px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
